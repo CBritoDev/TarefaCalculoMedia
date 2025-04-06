@@ -8,7 +8,8 @@ Projeto desenvolvido como tarefa do curso da EBAC. O objetivo é calcular a méd
 - Git
 
 ## 🎥 Demonstração da Calculadora
-![Demonstração](./demonstracao_convertido.gif)
+![Demonstração](demonstracao.gif)
+
 
 
 ## 🚀 Como executar
