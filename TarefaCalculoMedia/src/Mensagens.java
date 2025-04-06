@@ -14,9 +14,4 @@ public class Mensagens {
         System.out.println(mensagem);
         return mensagem;
     }
-
-    public void mensagemIntroducao(){
-        mostraMensagens("**************");
-        mostraMensagens("Bem vindo(a) à Calculadora de médias da EBAC!");
-    }
 }

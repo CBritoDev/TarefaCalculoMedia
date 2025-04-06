@@ -1,9 +1,6 @@
-import java.util.Locale;
-import java.util.Scanner;
+
 
 public class Calculadora {
-    Scanner scanner = new Scanner(System.in);
-
 
     private double nota1;
     private double nota2;
@@ -51,24 +48,7 @@ public class Calculadora {
         this.media = media;
     }
 
-    public void leituraNotas(){
-        scanner.useLocale(Locale.US);
-        System.out.print("Digite a primeira nota: ");
-        setNota1(scanner.nextDouble());
-
-        System.out.print("Digite a segunda nota: ");
-        setNota2(scanner.nextDouble());
-
-
-        System.out.print("Digite a terceira nota: ");
-        setNota3(scanner.nextDouble());
-
-
-        System.out.print("Digite a quarta nota: ");
-        setNota4(scanner.nextDouble());
-    }
-
-    public double calculadoraMedia(){
+    public double calcularMedia(){
         this.media = (nota1 + nota2 + nota3 + nota4) / 4;
         return media;
     }

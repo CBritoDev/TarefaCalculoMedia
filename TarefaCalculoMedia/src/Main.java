@@ -8,11 +8,14 @@ public class Main {
 
         Calculadora media = new Calculadora();
         Mensagens mensagem = new Mensagens();
+        EntradaDados notas = new EntradaDados(scanner);
 
-        mensagem.mensagemIntroducao();
-        media.leituraNotas();
-        media.calculadoraMedia();
+        mensagem.mostraMensagens("**************");
+        mensagem.mostraMensagens("Bem vindo(a) à Calculadora de médias da EBAC!");
+
+        notas.leituraNotas(media);
+        media.calcularMedia();
         double resultadoMedia = media.getMedia();
-        System.out.print("O valor da média é: " + resultadoMedia);
+        mensagem.mostraMensagens("O valor da média é: " + resultadoMedia);
     }
 }
