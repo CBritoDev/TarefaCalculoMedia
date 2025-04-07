@@ -18,6 +18,11 @@ public class Main {
         notas.leituraNotas(media);
         media.calcularMedia();
         double resultadoMedia = media.getMedia();
-        mensagem.mostraMensagens("O valor da média é: " + resultadoMedia);
+
+        if(resultadoMedia > 59){
+            mensagem.mostraMensagens("Parabéns! Você passou com média " + resultadoMedia);
+        }else{
+            mensagem.mostraMensagens("Sua média de " + resultadoMedia + " está abaixo do esperado. Reprovado.");
+        }
     }
 }
