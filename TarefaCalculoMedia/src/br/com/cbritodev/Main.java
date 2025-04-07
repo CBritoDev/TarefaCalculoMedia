@@ -1,3 +1,5 @@
+package br.com.cbritodev;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -11,7 +13,7 @@ public class Main {
         EntradaDados notas = new EntradaDados(scanner);
 
         mensagem.mostraMensagens("**************");
-        mensagem.mostraMensagens("Bem vindo(a) à Calculadora de médias da EBAC!");
+        mensagem.mostraMensagens("Bem vindo(a) à br.com.cbritodev.Calculadora de médias da EBAC!");
 
         notas.leituraNotas(media);
         media.calcularMedia();

@@ -1,3 +1,5 @@
+package br.com.cbritodev;
+
 import java.util.Scanner;
 
 public class EntradaDados {

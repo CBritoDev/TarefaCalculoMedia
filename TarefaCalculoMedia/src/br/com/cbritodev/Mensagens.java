@@ -1,3 +1,5 @@
+package br.com.cbritodev;
+
 public class Mensagens {
 
     private String mensagem;
